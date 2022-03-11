@@ -1,0 +1,61 @@
+body {
+  margin: 0px;
+}
+a {
+  color: black;
+}
+section {
+  font-family: "Bitter", serif;
+}
+
+.logo {
+  font-family: "Dancing Script", cursive;
+}
+
+.home {
+  margin-top: 20%;
+  width: 500px;
+  height: 350px;
+  border-radius: 10px;
+}
+
+.home-orange {
+  margin-top: 18%;
+  margin-left: -9%;
+  width: 250px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.about-home {
+  width: 500px;
+  height: 350px;
+  border-radius: 10px;
+}
+.about-text {
+  border-radius: 10px;
+  border: 3px solid #f58840;
+}
+
+.bgc-orange {
+  background-color: #f58840;
+  color: whitesmoke;
+}
+
+.bgc-gray {
+  background-color: #e5e5e5;
+}
+
+.bgc-whitesmoke {
+  background-color: #e8e8e8;
+}
+
+.mt-6 {
+  margin-top: 6rem;
+}
+
+@media screen and (max-width: 844px) {
+  .home-orange {
+    display: none;
+  }
+}
